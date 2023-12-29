@@ -10,3 +10,4 @@ Run the app:
 
 `gunicorn -w 4 -b 127.0.0.1:10001 app:app`
 
+App should be visible at `http://127.0.0.1:10001`
